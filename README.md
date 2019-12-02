@@ -1,4 +1,4 @@
 # amnesia
-toolsets that I dont want to install in machine
-Generate gradlew files
+Toolssets you wouldnt want to install in machine but want it for short time
+## Generate gradlew files
 docker run -v $(pwd):/app mshanu/amnesia gradle wrapper 
