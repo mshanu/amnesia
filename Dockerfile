@@ -8,6 +8,10 @@ RUN apt-get update \
 RUN curl -s "https://get.sdkman.io" | bash
 RUN chmod +x /root/.sdkman/bin/sdkman-init.sh 
 RUN bash  -c "source /root/.sdkman/bin/sdkman-init.sh && sdk install gradle 6.0.1"
+
+#Install 
+RUN bash  -c "source /root/.sdkman/bin/sdkman-init.sh && sdk install micronaut"
+
 # Install nvm
 #RUN curl -s "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash"
 
